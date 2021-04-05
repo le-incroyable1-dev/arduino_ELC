@@ -1,3 +1,8 @@
+/*
+Required libraries have already been included
+in the arduino software
+*/
+
 int brightness = 0;
 
 void setup()
