@@ -5,6 +5,11 @@ void setup()
 {
   Serial.begin(9600);
   Serial.print("GAS SENSOR INITIATED \n");
+	
+  pinMode(7, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(13, OUTPUT);
 }
 
 void loop()
