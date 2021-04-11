@@ -24,13 +24,12 @@ void setup()
   
   lcd.setCursor(0,0);
   lcd.print("RECEIVER :");
-  delay(5000);
   lcd.clear();
 }
 
 void loop()
 { 
-  delay(100);
+  delay(1000);
 }
 
 void receiveEvent(int howMany)
